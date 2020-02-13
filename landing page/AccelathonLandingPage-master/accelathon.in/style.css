@@ -2566,7 +2566,9 @@ input:required {
 .our-sponsor-client-area {
   position: relative;
   z-index: 1;
-  background-color: #151853; }
+  background-color: #151853;
+  
+}
 
 .our-sponsor-area {
   position: relative;
