@@ -21,14 +21,29 @@
 
 </head>
 
+
+<!-- new work slider -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<style>
+    .mySlides {display:none;}
+    </style>
+<!-- new work slider -->
+
+
+
+
 <body>
     <!-- Preloader -->
-    <div id="preloader">
+    <!-- <div id="preloader">
         <div class="loader"></div>
-    </div>
+    </div> -->
     <!-- /Preloader -->
 
     <!-- Header Area Start -->
+
+    
 
     <header class="header-area">
         <div class="classy-nav-container breakpoint-off">
@@ -103,6 +118,7 @@
             <div class="row align-items-center">
 
                 <!-- About Content -->
+
 
                 <div>
                     <div class="about-content-text mb-80">
@@ -503,7 +519,9 @@
         style="background-image: url(img/bg-img/14.jpg);">
         <div class="container">
             <div class="row">
+                
                 <!-- Heading -->
+
                 <div class="col-12">
                     <div class="section-heading text-center wow fadeInUp" data-wow-delay="300ms">
                         <p></p>
@@ -514,7 +532,6 @@
 
             <div class="row">
                 <!-- Single Ticket Pricing Table -->
-
 
                 <!-- Single Ticket Pricing Table -->
                 <div class="col-12">
@@ -528,6 +545,7 @@
                         <h2 class="ticket-price"><span> Total 1 Lakh ₹ Prizes <span><br></span>to be won</span> </h2>
                         <a href="https://bit.ly/2tJWzWN" target="/blank" class="btn confer-btn w-100 mb-30">Register
                             Now<i class="zmdi zmdi-long-arrow-right"></i></a>
+
                         <!-- Ticket Pricing Table Details -->
                         <div class="ticket-pricing-table-details">
                             <p><i class="zmdi zmdi-check"></i> Exciting Cash Prizes to be Won</p>
@@ -536,12 +554,48 @@
                             <p><i class="zmdi zmdi-check"></i> 28th Februray - Last Date for Registration</p>
 
                         </div>
+
                     </div>
+
+                    
+
+
+  <div class="single-ticket-pricing-table active text-center mb-100 wow fadeInUp" data-wow-delay="300ms">
+    <h6 class="ticket-plan">AccelATHON 2019</h6>
+  
+      <!-- new content slider 2 -->
+  
+      <div class="col-12">
+        <div class="section-heading text-center wow fadeInUp" data-wow-delay="300ms">
+            <p></p>
+            <h4 >AccelATHON 2019</h4>
+        </div>
+    </div>
+    <div class="w3-content w3-display-container">
+    
+        <!-- <img class="mySlides" src="img/A1.jpg" style="width:100%"> -->
+        <img class="mySlides" src="img/A2.jpg" style="width:100%">
+        <img class="mySlides" src="img/A3.jpg" style="width:100%">
+        <img class="mySlides" src="img/A4.JPG" style="width:100%">
+        <img class="mySlides" src="img/A5.JPG" style="width:100%">
+        <img class="mySlides" src="img/A6.JPG" style="width:100%">
+        <img class="mySlides" src="img/A7.JPG" style="width:100%">
+        <img class="mySlides" src="img/A8.jpg" style="width:100%">
+      
+        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+      </div>
+      <!-- new content slider 2 -->
+    
+   
+  </div>
+
                 </div>
 
 
             </div>
         </div>
+        
     </section>
     <!-- Our Ticket Pricing Table Area End -->
 
@@ -652,5 +706,25 @@
 
 
 <!-- Mirrored from accelathon.in/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 07 Feb 2020 14:12:38 GMT -->
+
+<script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+    
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+    
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      x[slideIndex-1].style.display = "block";  
+    }
+    </script>
 
 </html>
