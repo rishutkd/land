@@ -1,12 +1,16 @@
 /* ------------------------------------------
 [Master Stylesheet]
+
 Template Name: Confer - Conference Event HTML Template
 Template Author: Colorlib
 Template Author URL: http://colorlib.com
 Version: 1.0.0
 Last Update: March 14, 2019
+
 [Tables of CSS Content]
+
 + body
+
     01.0 Reboot Area CSS
     02.0 Spacing Area CSS
     03.0 Preloader Area CSS
@@ -2559,13 +2563,10 @@ input:required {
     box-shadow: 0px 8px 27px 0px rgba(90, 111, 120, 0.15); }
 
 /* :: 19.0 Sponsor Area CSS */
-
 .our-sponsor-client-area {
   position: relative;
   z-index: 1;
-  background-color: #151853;
-  
-}
+  background-color: #151853; }
 
 .our-sponsor-area {
   position: relative;
